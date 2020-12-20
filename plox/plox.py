@@ -7,7 +7,7 @@ class Plox:
     # https://matplotlib.org/3.2.1/tutorials/introductory/customizing.html
     _default_style = {
         'savefig.bbox': "tight",
-        'savefig.pad_inches': 0,
+        'savefig.pad_inches': 0.01,
         'savefig.transparent': False,
     }
 
