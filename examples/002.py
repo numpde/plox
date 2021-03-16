@@ -1,13 +1,13 @@
 # RA, 2020-12-20
 
-from plox import Plox
+from plox import Plox, rcParam
 from pathlib import Path
 
 # https://matplotlib.org/tutorials/introductory/customizing.html
 style = {
-    'legend.fontsize': "large",
-    'xtick.labelsize': "large",
-    'ytick.labelsize': "large",
+    rcParam.Legend.fontsize: "large",
+    rcParam.Xtick.labelsize: "large",
+    rcParam.Ytick.labelsize: "large",
 }
 
 with Plox(style) as px:

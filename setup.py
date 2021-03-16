@@ -4,12 +4,11 @@ with open("README.md", 'r') as fd:
     long_description = fd.read()
 
 # python setup.py sdist bdist_wheel
-# twine upload dist/*
-# rm -rf build dist *.egg-info
+# twine upload dist/* && rm -rf build dist *.egg-info
 
 setuptools.setup(
     name="plox",
-    version="0.0.2",
+    version="0.0.3",
     author="RA",
     author_email="numpde@null.net",
     keywords="development matplotlib figure context",
